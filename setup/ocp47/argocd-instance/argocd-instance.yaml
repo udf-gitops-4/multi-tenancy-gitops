@@ -125,7 +125,7 @@ spec:
         end
         hs.status = "Progressing"
         hs.message = "Unknown"
-        return hs                  
+        return hs
   applicationSet:
     resources:
       limits:
@@ -152,6 +152,7 @@ spec:
       - TaskRun
       - PipelineRun
   dex:
+    openShiftOAuth: true
     resources:
       limits:
         cpu: 500m
@@ -169,7 +170,8 @@ spec:
         cpu: 250m
         memory: 128Mi
   tls:
-    ca: {}
+    ca:
+      secretName: openshift-gitops-cntk-tls
   redis:
     resources:
       limits:
