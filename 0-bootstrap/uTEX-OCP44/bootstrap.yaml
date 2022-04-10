@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: bootstrap-single-cluster
+  name: bootstrap-uTEX-OCP44
   namespace: openshift-gitops
 spec:
   destination:

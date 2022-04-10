@@ -14,7 +14,7 @@ metadata:
     server: https://kubernetes.default.svc
   project: services
   source: # repoURL  and targetRevision populated by kustomize patches in 2-services/kustomization.yaml
-    path: apic/config/argocd/single-cluster/instances/gateway-analytics-instance
+    path: apic/config/argocd/uTEX-OCP44/instances/gateway-analytics-instance
   syncPolicy:
     automated:
       prune: true
