@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: 0-bootstrap/single-cluster
+    path: 0-bootstrap/uTEX-OCP44
     repoURL: https://github.com/udf-gitops-4/multi-tenancy-gitops.git
     targetRevision: master
   syncPolicy:
