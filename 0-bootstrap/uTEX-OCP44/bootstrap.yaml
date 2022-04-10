@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: bootstrap-uTEX-OCP44
+  name: bootstrap-utex-ocp44
   namespace: openshift-gitops
 spec:
   destination:
