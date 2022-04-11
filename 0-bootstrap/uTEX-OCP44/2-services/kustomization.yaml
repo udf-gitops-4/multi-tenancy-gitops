@@ -54,8 +54,8 @@ resources:
 - argocd/operators/ibm-catalogs.yaml
 
 # B2BI
-- argocd/instances/ibm-sfg-db2.yaml
-- argocd/instances/ibm-sfg-mq.yaml
+#- argocd/instances/ibm-sfg-db2.yaml
+#- argocd/instances/ibm-sfg-mq.yaml
 #- argocd/instances/ibm-sfg-b2bi-setup.yaml
 #- argocd/instances/ibm-sfg-b2bi.yaml
 
