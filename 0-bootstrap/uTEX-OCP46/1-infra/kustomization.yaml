@@ -29,7 +29,7 @@ resources:
 #- argocd/serviceaccounts-b2bi.yaml
 #- argocd/serviceaccounts-db2.yaml
 #- argocd/serviceaccounts-mq.yaml
-#- argocd/scc-wkc-iis.yaml
+- argocd/scc-wkc-iis.yaml
 #- argocd/storage.yaml
 #- argocd/infraconfig.yaml
 #- argocd/machinesets.yaml
